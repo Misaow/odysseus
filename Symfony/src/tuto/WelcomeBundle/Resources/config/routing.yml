@@ -1,0 +1,6 @@
+homepage:
+    pattern:  /blog/articles
+    defaults: { _controller: tutoWelcomeBundle:Homepage:index }
+tutoWelcomeBundle_homepage:
+    pattern:  /
+    defaults: { _controller: tutoWelcomeBundle:Homepage:index }
